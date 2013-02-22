@@ -1,10 +1,9 @@
 <resources>
 
-    <!-- Mystery project -->
-    <string name="app_name">Mystery</string>
-    
+    <!-- mystery project -->
+    <string name="app_name" translatable="false">Mystery</string>
+
     <!-- contacts list activity -->
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_contacts_list">ContactsListActivity</string>
+    <string name="title_activity_contacts_list" translatable="false">ContactsListActivity</string>
 
 </resources>
