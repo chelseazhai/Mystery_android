@@ -1,7 +1,7 @@
 <resources>
 
     <!-- mystery project -->
-    <string name="app_name" translatable="false">Mystery</string>
+    <string name="app_name">Mystery</string>
 
     <!-- contacts list activity -->
     <string name="title_activity_contacts_list" translatable="false">ContactsListActivity</string>
