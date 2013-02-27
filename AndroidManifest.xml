@@ -5,21 +5,31 @@
 
     <uses-sdk
         android:minSdkVersion="7"
-        android:targetSdkVersion="15" />
+        android:targetSdkVersion="17" />
 
     <application
+        android:name="com.richitec.commontoolkit.CTApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ContactsListActivity"
-            android:label="@string/title_activity_contacts_list" >
+            android:name=".MysteryAppLaunchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppLaunchActivityTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".contact.ContactsListActivity"
+            android:label="@string/title_activity_contacts_list" >
+        </activity>
+        <activity
+            android:name=".assistant.AboutActivity"
+            android:label="@string/title_activity_about" >
         </activity>
     </application>
 
