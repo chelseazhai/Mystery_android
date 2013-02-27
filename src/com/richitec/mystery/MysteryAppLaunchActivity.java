@@ -32,7 +32,6 @@ public class MysteryAppLaunchActivity extends AppLaunchActivity {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
 
 }
