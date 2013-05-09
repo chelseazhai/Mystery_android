@@ -22,7 +22,7 @@ public class MysteryAppLaunchActivity extends AppLaunchActivity {
 	}
 
 	@Override
-	public void didFinishLaunching() {
+	public boolean didFinishLaunching() {
 		try {
 			// sleep 5 seconds
 			Log.d("@", "I'm sleeping...");
@@ -32,6 +32,8 @@ public class MysteryAppLaunchActivity extends AppLaunchActivity {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
+		return false;
 	}
 
 }
